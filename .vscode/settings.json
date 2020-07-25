@@ -1,0 +1,6 @@
+{
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask"],
+    "python.pythonPath": "k:\\python_stuff\\Simple API\\env\\Scripts\\python.exe"
+}

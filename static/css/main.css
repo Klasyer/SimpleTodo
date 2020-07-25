@@ -1,0 +1,7 @@
+body {
+    margin: 0; 
+    font-family: 'Lucida Sans Unicode';
+}
+table, th, td {
+    border: 1px solid black;
+  }
