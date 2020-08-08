@@ -85,7 +85,7 @@ def add_task():
 @app.route('/task/<int:id>', methods=['GET'])
 def get_task(id):
     task = Todo.query.get(id)
-    if task is 
+   # if task is 
     try:
         return task_schema.jsonify(task)
     except:
