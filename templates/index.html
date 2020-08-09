@@ -8,17 +8,19 @@
 <div class="content">
 
     {% if tasks|length < 1 %}
-    <h4> There are no tasks, Create one now! </h4>
+    <h1> There are no tasks, Create one now! </h1>
     {% else %} 
 
     <table> 
         <tr> 
+            <th> ID </th>
             <th> Task </th>
             <th> Added </th>
             <th> Actions </th>
         </tr>
         {% for task in tasks %} 
         <tr> 
+            <td>{{ task.id }}</td>
             <td>{{ task.content }}</td>
             <td>{{ task.date_created.date() }}</td>
             <td>
